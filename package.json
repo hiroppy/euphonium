@@ -1,0 +1,19 @@
+{
+  "name": "euphonium",
+  "version": "0.0.0",
+  "description": "a new architecture like flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abouthiroppy/euphonium.git"
+  },
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abouthiroppy/euphonium/issues"
+  },
+  "homepage": "https://github.com/abouthiroppy/euphonium#readme"
+}
