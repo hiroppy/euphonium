@@ -58,12 +58,16 @@ story.before('HOGE', (req) => {
 });
 
 // otherwise
-story('*', (req) => {
+story.process('*', (req, state) => {
    // business logic
   return {};
 });
 
-story('HOGE', (req) => {
+/**
+ * @param {Object} req
+ * @param {Object} state - current state
+ */
+story.process('HOGE', (req, state) => {
    // business logic
   return {};
 });
@@ -97,7 +101,7 @@ view ->
   router ->
     story.beforeAll ->
     story.before ->
-    story ->
+    story.process ->
     story.disposeAll ->
     story.dispose ->
 view
